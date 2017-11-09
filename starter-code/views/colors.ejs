@@ -1,0 +1,11 @@
+<h2>Colors</h2>
+<ul>
+  <%colors.forEach(color =>{%>
+    <li>
+      <%=color.keyword%>
+      <%=color.hex%>
+      <div style="background-color: <%=color.hex%>; height:20px; width: 20px;"  >
+      </div>
+    </li>
+  <%});%>
+</ul>

@@ -1,0 +1,12 @@
+<h2>Green</h2>
+<ul>
+  <%colors.forEach(color =>{%>
+    <%if(color.category === 'green'){%>
+      <li>
+        <%=color.keyword%>
+        <div style="background-color: <%=color.hex%>; height:20px; width: 20px;"  >
+        </div>
+      </li>
+    <%}%>
+  <%});%>
+</ul>

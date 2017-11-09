@@ -1,0 +1,21 @@
+*{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+li{
+padding: 5%;
+}
+nav > ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.random{
+  font-size: 300%;
+}
